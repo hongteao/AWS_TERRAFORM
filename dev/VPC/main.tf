@@ -14,7 +14,7 @@ module "vpc" {
 
 terraform {
   backend "s3" {
-    bucket = "seunghyeon-project-test"
+    bucket = "Taeoh-hong-test"
     key = "vpc/terraform.tfstate"
     region = "ap-northeast-2"
     encrypt = true
