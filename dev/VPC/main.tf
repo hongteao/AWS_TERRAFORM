@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "https://github.com/hongteao/AWS_TERRAFORM.git//VPC?ref=v0.0.1"
+  source = "https://github.com/hongteao/AWS_TERRAFORM.git//dev/VPC?ref=v0.0.1"
 
   cidr   = "10.0.0.0/16"
   private_subnets = ["10.0.1.0/24", "10.0.2.0/24"]
